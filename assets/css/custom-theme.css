@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Product Sans';
     font-style: normal;
+    font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
 
@@ -77,9 +78,9 @@ body {
     font-weight: bolder;
     font-family: 'Product Sans';
     font-size: 75px;
-    display: inline-block;
+    display: block;
     line-height: 90px;
-    margin-right: 42px;
+    margin: 0 167px;
 }
 .text-social {
     background: -webkit-linear-gradient(left, #08E942, #0E9C52);
@@ -390,6 +391,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .sec2Mockup-container {
     height: 825px;
+    width: -webkit-fill-available;
     border-radius: 10px;
     /* background-color: #D8F9DA; */
     overflow-x: auto;
@@ -566,7 +568,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     padding-bottom: 30px;
 }
 .docs-nav .nav-item {
-    margin-left: 19px;
+    margin-left: 15px;
 }
 .docs-nav .section-title {
     margin-bottom: 0;
@@ -1340,3 +1342,440 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     position: absolute;
     left: 41%;
   }
+
+/* Mackbook 13" media queries */
+@media only screen 
+ and (max-width : 1440px) 
+ and (max-height : 900px) {
+ 
+  .jt-desc {
+    margin: 0 98px;
+  }
+  .button-container {
+    margin: 0 98px;
+  }
+  .jumbotron-container {
+    height: 716.5px;
+  }
+  .jumbotron-text-container {
+    padding: 160px 0px;
+  }
+  .txtDesc-container {
+    font-size: 17px;
+    margin: 0 150px;
+  }
+  .mockup2nd-display-custom {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .mc-appMockup {
+    width: 130%;
+  }
+  .sectionFour-container {
+    height: 58rem;
+  }
+  .newTitleIndex {
+    font-size: 65px;
+  }
+  .oldTitle-fresco {
+    font-size: 65px;
+  }
+
+  .margin-left-custom {
+    display: none;
+  }
+  .sec2Mockup-container {
+    height: 720px;
+  }
+  .logo-placement {
+    margin-left: 0.8rem;
+  }
+  .homescreenWithHostspots {
+    width: 170%;
+  }
+  .map-item1 {
+    top: 32%;
+    left: 18.2%;
+  }
+  .map-item3 {
+    top: 41.4%;
+    left: 19%;
+  }
+  .map-item5 {
+    top: 88%;
+    left: 19%;
+  }
+  .map-item6a {
+    top: 42.9%;
+    left: 68.8%;
+  }
+  .map-item6 {
+    top: 42%;
+    left: 58%;
+  }
+  .map-item7 {
+    top: 13%;
+    left: 85%;
+  }
+  .map-item8 {
+    top: 57%;
+    left: 88%;
+  }
+  .map-item9 {
+    top: 63%;
+    left: 115%;
+  }
+  .map-item10 {
+    top: 49.8%;
+    left: 138.4%;
+  }
+  .newKnome-hotCustWdth {
+    width: 355%;
+  }
+  .oldKnowme-CustomWidth {
+    width: 355%;
+  }
+  .docs-content {
+    padding-bottom: 18px;
+  }
+  .wap-mokpCustomWidth {
+    width: 342%;
+  }
+  .wapCustomWidth-comp1 {
+    width: 760%;
+  }
+  .customWidth-comparison2 {
+    width: 52.5%;
+  }
+  .map-itemW1 {
+    top: 55%;
+    left: 17%;
+  }
+  .map-itemW3 {
+    top: 75%;
+    left: 35%;
+  }
+  .map-itemW4 {
+    top: 47%;
+    left: 63%;
+  }
+  .map-itemW2a {
+    top: 16%;
+    left: 44.6%;
+  }
+  .map-itemW5 {
+    top: 35%;
+    left: 85%;
+  }
+  .map-itemW6 {
+    top: 47.52%;
+    left: 117%;
+  }
+  .map-itemW7 {
+    top: 28.7%;
+    left: 138%;
+  }
+  .map-itemW8 {
+    top: 84.5%;
+    left: 175%;
+  }
+  .map-itemW9 {
+    top: 58%;
+    left: 257%;
+  }
+  .map-itemW10 {
+    top: 25.2%;
+    left: 277%;
+  }
+  .map-itemW11 {
+    top: 64.2%;
+    left: 310%;
+  }
+  .map-itemW12 {
+    top: 25.2%;
+    left: 326%;
+  }
+  .map-itemW13 {
+    top: 65.5%;
+    left: 324.7%;
+  }
+
+  .jobsSec-customWidth {
+    width: 170%;
+  }
+  .map-itemJ1a {
+    top: 10%;
+    left: 18%;
+  }
+  .map-itemJ2 {
+    top: 44.2%;
+    left: 12%;
+  }
+  .map-itemJ2a {
+    top: 53%;
+    left: 39%;
+  }
+  .map-itemJ3 {
+    top: 31%;
+    left: 62%;
+  }
+  .map-itemJ4 {
+    top: 40%;
+    left: 86%;
+  }
+  .map-itemJ5 {
+    top: 49.55%;
+    left: 113.6%;
+  }
+  .map-itemJ6 {
+    top: 44.1%;
+    left: 134.8%;
+  }
+  .map-itemJ7 {
+    top: 17%;
+    left: 165.7%;
+  }
+  .map-itemJ8 {
+    top: 79.6%;
+    left: 158.7%;
+  }
+  
+  .containerHalf1 {
+    height: 720px;
+  }
+  .containerHalf2 {
+    height: 720px;
+  }
+  .margin-top-Sec1 {
+    padding: 15px 15px 10px;
+  }
+
+  .sphereSec-customWidth {
+    width: 72%;
+  }
+  .sphereCustomWidth-comp1 {
+    width: 153%;
+  }
+  .map-itemSph1 {
+    top: 86.1%;
+    left: 21.6%;
+  }
+  .map-itemSph3 {
+    top: 23.5%;
+    left: 75%;
+  }
+
+  .commCustomWidth-comp1 {
+    width: 72%;
+  }
+  .commCustWidth-comp1 {
+    width: 153%;
+  }
+
+  .eventsSec-customWidth {
+    width: 170%;
+  }
+  .map-itemE1a {
+    top: 28.5%;
+    left: 19.9%;
+  }
+  .map-itemE1b {
+    top: 34%;
+    left: 13.3%;
+  }
+  .map-itemE3 {
+    top: 65.9%;
+    left: 14.4%;
+  }
+  .map-itemE4 {
+    top: 41%;
+    left: 32%;
+  }
+  .map-itemE5 {
+    top: 35%;
+    left: 61%;
+  }
+  .map-itemE6 {
+    top: 37%;
+    left: 76.6%;
+  }
+  .map-itemE7 {
+    top: 38.7%;
+    left: 107%;
+  }
+  .map-itemE8 {
+    top: 42%;
+    left: 134%;
+  }
+
+  .vidChSec-customWidth {
+    width: 47%;
+  }
+  .map-itemV3 {
+    top: 25%;
+    left: 38.5%;
+  }
+  .vidChCustomWidth-comp1 {
+    width: 103%;
+    padding: 20px 0;
+  }
+
+  .search-wthHotspotsSize {
+    width: 121%;
+  }
+  .sc-mockup-second {
+    width: 254%;
+    padding: 20px 0;
+  }
+  .map-itemSe1 {
+    top: 17.6%;
+    left: 11%;
+  }
+  .map-itemSe2 {
+    top: 33.7%;
+    left: 11%;
+  }
+  .map-itemSe3 {
+    top: 48.4%;
+    left: 11%;
+  }
+  .map-itemSe4 {
+    top: 21.5%;
+    left: 42%;
+  }
+  .map-itemSe5 {
+    top: 38%;
+    left: 37%;
+  }
+  .map-itemSe6 {
+    top: 38%;
+    left: 58%;
+  }
+  .map-itemSe7 {
+    top: 76%;
+    left: 61%;
+  }
+  .map-itemSe8 {
+    top: 47.3%;
+    left: 79%;
+  }
+  .map-itemSe9 {
+    top: 40%;
+    left: 103%;
+  }
+
+  .annWthHtspots-customWidth {
+    width: 170%;
+  }
+  .map-itemAnn1 {
+    top: 18.6%;
+    left: 13%;
+  }
+  .map-itemAnn1a {
+    top: 27.8%;
+    left: 16%;
+  }
+  .map-itemAnn2 {
+    top: 76.3%;
+    left: 19.95%;
+  }
+  .map-itemAnn3 {
+    top: 54%;
+    left: 36%;
+  }
+  .map-itemAnn4a {
+    top: 10%;
+    left: 42%;
+  }
+  .map-itemAnn4 {
+    top: 19%;
+    left: 42.8%;
+  }
+  .map-itemAnn5 {
+    top: 32%;
+    left: 60%;
+  }
+  .map-itemAnn6 {
+    top: 47%;
+    left: 110%;
+  }
+  .map-itemAnn7 {
+    top: 72%;
+    left: 137%;
+  }
+  .map-itemAnn8 {
+    top: 45%;
+    left: 150.3%;
+  }
+
+  .profileSec-customWidth {
+    width: 367%;
+  }
+  .map-itemP1 {
+    top: 11%;
+    left: 15%;
+  }
+  .map-itemP2 {
+    top: 27%;
+    left: 16%;
+  }
+  .map-itemP3 {
+    top: 40.5%;
+    left: 16%;
+  }
+  .map-itemP4 {
+    top: 74.5%;
+    left: 16%;
+  }
+  .map-itemP5 {
+    top: 23%;
+    left: 158.3%;
+  }
+  .map-itemP6 {
+    top: 47%;
+    left: 162%;
+  }
+  .map-itemP7 {
+    top: 73.8%;
+    left: 157%;
+  }
+  .map-itemP8 {
+    top: 62.7%;
+    left: 185%;
+  }
+  .map-itemP9 {
+    top: 51%;
+    left: 212%;
+  }
+  .map-itemP10 {
+    top: 40%;
+    left: 226%;
+  }
+  .map-itemP11 {
+    top: 70%;
+    left: 256%;
+  }
+  .map-itemP13 {
+    top: 42%;
+    left: 307%;
+  }
+  .map-itemP14 {
+    top: 21.6%;
+    left: 310.6%;
+  }
+
+  .layout2-custHt {
+    height: 764px;
+  }
+  .margin-top-custom {
+    margin-top: 47px;
+  }
+  
+
+  .jumbotron-title {
+    display: block;
+    margin: 0 96px;
+  }
+
+}

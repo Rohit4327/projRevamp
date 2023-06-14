@@ -525,7 +525,7 @@ function changeLayout1a() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -553,7 +553,7 @@ function changeLayout1a() {
 function changeLayout2() {
 
     document.getElementById('screenFeaturesContainerWAP').innerHTML = `
-    <div id="scHalf1" class="sc-container1 frescoBackgroundForDivBox" style="margin-left: 0; margin-right: 5px;">
+    <div id="scHalf1" class="sc-container1 frescoBackgroundForDivBox containerHalf1" style="margin-left: 0; margin-right: 5px;">
 		<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex justify-content-between flex-row-reverse screenCount">
 	    	<span id="screenTitleTxtFeat" style="font-size: 20px">Screen 1</span>
 	    </div>
@@ -600,7 +600,7 @@ function changeLayout2() {
             </label>
         </div>
 	</div>
-	<div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	<div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -660,7 +660,7 @@ function changeLayout3() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -710,7 +710,7 @@ function changeLayout4() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -760,7 +760,7 @@ function changeLayout5() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -820,7 +820,7 @@ function changeLayout6() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -865,7 +865,7 @@ function changeLayout7() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -915,7 +915,7 @@ function changeLayout8() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -975,7 +975,7 @@ function changeLayout9() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
@@ -1035,7 +1035,7 @@ function changeLayout10() {
             </label>
         </div>
 	    </div>
-	    <div class="sc-container2 bgColorSec2" style="margin-right: 0; margin-left: 5px;">
+	    <div class="sc-container2 bgColorSec2 containerHalf2" style="margin-right: 0; margin-left: 5px;">
 	    	<div class="scMockup-Title scMockup-Title-OLD margin-top-Sec1 d-flex">
                 <span id="screenTitleTxtFeat2">Screen 1</span>
 	    	</div>
